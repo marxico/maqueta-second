@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h1.title{
+    margin-left: 5%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+a.defa{
+    position: relative;
+    margin-left: 660px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.header .banner {
+    background-color: red;
+}
+
+.header .menu {
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .menu .nav {
+    display: flex;
+    margin-right: 3%;
+    justify-content: space-between;
+    width: 20%;
+    
+}
+
+a.test{
+    color: black;
+    text-decoration: black;
+}
+
+
+
+.container .banner{
+    width: 100%;
+    height: 25vh;
+    background-color: pink;
+    
+}
+
+.container .products {
+    display: flex;
+    justify-content: space-between;
+}
+.container .products .product {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.container .products .product .img-product {
+    width: 60%;
+    height: 180px;
+    background-color: blue;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+footer .links {
+    width: 20%;
+}
+
+footer .soon {
+    width: 20%;
+}
+
+footer .soon .img-soon{
+    width: 100%;
+    height: 100px;
+    background-color: gold;
+}
+
+footer .description{
+    width: 60%;
+}
+
+footer{
+    background-color: gray;
+}
+
+h2.text{
+    margin-left: 30px;
+}
